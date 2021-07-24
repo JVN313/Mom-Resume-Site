@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none;
+}
+
+body {
+    text-align: center;
+
+}
+
+#intro-card {
+    border: solid red 10px;
+    background-color: seashell;
+
+}
+
