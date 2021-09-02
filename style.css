@@ -1,4 +1,45 @@
 * {
     box-sizing: border-box;
+    list-style: none;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background: lightblue;
+    border: solid 5px salmon;
+    width: 100%;
+    padding: 10px;
+    margin:0px -8px 100px;
+
+}
+
+header li {
+    display: inline-block;
+    margin-right: 20px
+
+}
+
+#intro-card {
+    margin: 15em 10em 5em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    border: dotted 5px green;
+
+}
+
+img {
+    border: blue solid 2px;
+
+}
+
+#intro-card p, #intro-card ul {
+    margin: 5em 10px 0;
 
 }
